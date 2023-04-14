@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> e62f9ffed9f4412da5c9f5eeb3cea8b9d970d7e6
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -12,4 +15,7 @@ char *argstostr(int ac, char **av);
 
 #endif
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e62f9ffed9f4412da5c9f5eeb3cea8b9d970d7e6
