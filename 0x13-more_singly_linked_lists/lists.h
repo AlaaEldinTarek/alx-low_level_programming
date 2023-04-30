@@ -1,12 +1,5 @@
 #ifndef LISTS_H
 #define LISTS_H
-
-/*
- * file: lists.h
- * auth: Alaa Eldin
- * desc: Header file containing prototypes and definition for all function and typr written in the 0x13-more_single_linked_listes directory.
- */
-
 #include <stdlib.h>
 
 /**
