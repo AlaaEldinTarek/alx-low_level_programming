@@ -1,8 +1,3 @@
-/*
- * file: 0-print_listint.c
- * auth: Alaa Eldin
- */
-
 #include "lists.h"
 #include <stdio.h>
 
