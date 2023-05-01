@@ -3,6 +3,15 @@
 #include <stdio.h>
 
 /**
+ * _r - reallocates memory for an array of pointers
+ * to the nodes in alinked list
+ * @list: the old list append
+ * @size: size of the new list (always one more than the old list )
+ * @new: new node to add to the list
+ *
+ * Return: pointer to the new list 
+ *
+ *
  * looped_listint_len - Counts the number of unique nodes
  *                      in a looped listint_t linked list.
  * @head: A pointer to the head of the listint_t to check.
@@ -43,7 +52,7 @@ size_t print_listint_safe(const listint_t *head)
 	{
 		for (i = 0; i < num; i++)
 		{
-			if (head ==list[i])
+			if (head == list[i])
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
 				free(list);
