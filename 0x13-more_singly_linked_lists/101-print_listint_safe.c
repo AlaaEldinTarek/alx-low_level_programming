@@ -9,15 +9,7 @@
  * @size: size of the new list (always one more than the old list )
  * @new: new node to add to the list
  *
- * Return: pointer to the new list 
- *
- *
- * looped_listint_len - Counts the number of unique nodes
- *                      in a looped listint_t linked list.
- * @head: A pointer to the head of the listint_t to check.
- *
- * Return: If the list is not looped - 0.
- *         Otherwise - the number of unique nodes in the list.
+ * Return: pointer to the new list
  */
 const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
@@ -25,12 +17,12 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 	size_t i;
 
 	newlist = malloc(size * sizeof(listint_t *));
-	if(newlist == NULL)
+	if (newlist == NULL)
 	{
 		free(list);
 		exit(98);
 	}
-	for (i=0; i < size - 1; i++)
+	for (i = 0; i < size - 1; i++)
 		newlist[i] = list[i];
 	newlist[i] = new;
 	free(list);
