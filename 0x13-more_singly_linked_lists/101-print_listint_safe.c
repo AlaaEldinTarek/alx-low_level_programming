@@ -29,8 +29,6 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 	return (newlist);
 }
 /**
- * _r - reallocates memory for an array of pointers
- * to the nodes in alinked list
  * print_listint_safe - Prints a listint_t list safely.
  * @head: A pointer to the head of the listint_t list.
  *
@@ -41,6 +39,7 @@ size_t print_listint_safe(const listint_t *head)
 {
 	size_t i, num = 0;
 	const listint_t **list = NULL;
+	
 	
 	while (head != NULL)
 	{
