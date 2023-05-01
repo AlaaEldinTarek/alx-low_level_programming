@@ -9,7 +9,7 @@
  */
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *ahead = NULL , *behind = NULL ;
+	listint_t *ahead = NULL, *behind = NULL;
 
 	if (!head || !*head)
 		return (NULL);
