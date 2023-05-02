@@ -4,7 +4,7 @@
 /**
  * find_listint_loop - finds a loop in a linked list
  *
- * @head: linked list to search in loop 
+ * @head: linked list to search in loop
  *
  * Return: address of node where loop starts/returns, NULL if not in loop
  */
